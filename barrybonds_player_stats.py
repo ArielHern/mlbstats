@@ -42,7 +42,7 @@ df_bonds['HR'] = df_bonds['HR'].astype('int')
 
 # plot HR by years
 plt.style.use('ggplot')
-ax = df_bonds.plot(kind='bar', alpha=0.35, figsize=(20, 10))
+ax = df_bonds.plot(kind='bar', alpha=0.35, figsize=(10, 5))
 ax.set_title('Barry Bonds Home Runs By Years')
 ax.set_ylabel('Number of Home Runs')
 ax.set_xlabel('Year')
